@@ -1,0 +1,1 @@
+Mike's first foray into Rust. Expect bad code.
