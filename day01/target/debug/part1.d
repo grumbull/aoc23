@@ -1,1 +1,0 @@
-/Users/mike/Dev/aoc23/day01/target/debug/part1: /Users/mike/Dev/aoc23/day01/src/bin/input.txt /Users/mike/Dev/aoc23/day01/src/bin/part1.rs /Users/mike/Dev/aoc23/day01/src/lib.rs /Users/mike/Dev/aoc23/day01/src/vec_deque_fixed.rs

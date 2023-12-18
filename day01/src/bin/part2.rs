@@ -12,6 +12,9 @@ fn process(input: &str) -> String {
     let mut line_num = 1;
 
     for line in input.lines() {
+        // This forward then reverse iteration is 2n, but gets the
+        // benefit of early return. Efficacy depends on test input
+        // and how close target strings are to the ends of the line.
         let mut curr_line_val = iterate_over_line(&line, false, 10, false);
         curr_line_val += iterate_over_line(line, true, 1, false);
         dbg!(line_num, curr_line_val, line);
